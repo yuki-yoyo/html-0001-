@@ -1,0 +1,9 @@
+ body {
+    /*图片与html文档同级，而不是与css脚本同级，如果是与css脚本在同一文件夹中，可以直接写图片文件名，不然就需要加上路径。
+    在html中调用style-image.css,那么图片路径就要写成../ */
+    background-image: url("../images/cat.jpeg");
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 30px 80px/cover;
+  }

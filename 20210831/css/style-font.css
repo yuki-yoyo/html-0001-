@@ -1,0 +1,17 @@
+@charset "UTF-8";
+ 
+/* body {
+     background-color: rgb(222, 238, 238);/*背景色*/
+
+
+h1  {
+    font-family: serif;color:#0bd;background-color: rgb(160, 214, 198);
+}
+h2 {
+    /*字体设置*/font-family: "Yu Gothic","YuGothic",sans-serif;font-weight: bold;
+    color: navy;
+}
+p {
+    font-family: "Hiragino Maru Gothic Pro",sans-serif;line-height: 1.7;text-align: left;
+    color: rgba(10, 130, 165, .5); /*指定RGB值数，透明度为0.5 */
+}

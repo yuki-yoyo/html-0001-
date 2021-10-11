@@ -1,0 +1,15 @@
+h1 {
+    /* border-width: thin; 细框*/
+    /* border-width: medium;中等粗框*/
+    /*border-width: thick;/*粗框*/
+    /*border-style: solid;*/
+    padding-bottom: 50px;
+    border-bottom: 2px solid #0bd;
+    /*border-top(上）、bottom(下）、right（右）、left(左），可以指定边框线的位置*/
+}
+p {
+    border-width: medium;
+    border-style: double;/*边框的样式*/
+    /* border-color: tomato;线的颜色*/
+    border-color: tan #0bd tomato #000;/*上、右、下、左依次顺序的颜色*/
+}

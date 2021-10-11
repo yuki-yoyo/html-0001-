@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表单</title>
+</head>
+<body>
+<h3>ここにフォームの部品が入ります。</h3>
+<form>
+     名前：<input type="text" placeholder="名字　名前"></br>
+     性別：
+     <input type="radio" name="gender" value="男">男
+     <input type="radio" name="gender" value="女" checked>女
+     <input type="radio" name="gender" value="その他">その他
+    </br>
+    年齢：
+    <select name="age">
+        <option value="10代">10代</option>
+        <option value="20代" selected>20代</option>
+        <option value="30代">30代</option>
+        <option value="40代">40代</option>
+        <option value="50代">50代</option>
+    </select><br>
+     電話番号：<input type="tel"></br>
+     メールアドレス：<input type="email"></br>
+     好きな色：
+     <input type="checkbox" name="color" value="赤" checked id="red">
+     <label for="red">赤</label> 
+     <input type="checkbox" name="color" value="青" id="blue">
+     <label for="blue">青</label>
+     <input type="checkbox" name="color" value="黄" id="yellow">
+     <label for="yellow">黄</label>
+     <input type="checkbox" name="color" value="ピンク" id="pink">
+     <label for="pink">ピンク</label></br> 
+    <!--使用<label>标签使用户可以更好地关联特定的表单控件-->
+    旅行先：<br>
+    <input type="radio" name="travel" value="日本国内"　id="japan">
+    <label for="japan">日本国内</label>
+
+    <input type="radio" name="travel" value="ユーロッパ"　id="europe">
+    <label for="europe">ユーロッパ</label>
+
+    <input type="radio" name="travel" value="東南アジア"　id="asia">
+    <label for="asia">東南アジア</label></br>
+
+    <textarea name="message" placeholder="メッセージを入力"></textarea><br>
+    <input type="submit" value="送信する"></br>
+</form> 
+</body>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>猫の実態</title>
+</head>
+<body>
+    <h1>猫の一日</h1>
+    <p>ひたすら寝ています。</p>
+<!--插入链接/图片-->    
+    <a href="https://news.yahoo.co.jp/articles/de4a51b7fc81d031a7f66aa6373a87721c3f83b2">「猫の種類」人気ランキング
+    <img src="images/cat.jpeg" alt="猫"></img>
+    </a>
+<!--插入邮箱-->
+    <p><a href="mailto:yukiyo2294@gmail.com">お問い合わせ</a></p>
+<!--在另外一页中打开网页-->
+    <a href="https://google.co.jp" target="_blank">Google</a>
+ 
+<!--リストを作成する-->
+    <p><ul>
+        <li>卵<code>（３個）</code></li>
+        <li>しょうゆ<code>（大さじ１）</code></li>
+        <li>みりん<code>（大さじ１）</code></li>
+        <li>塩<code>（少々）</code></li>
+    </ul></p>
+    <p><ol>
+        <li>卵（３個）</li>
+        <li>しょうゆ（大さじ１）</li>
+        <li>みりん（大さじ１）</li>
+        <li>塩（少々）</li>
+    </ol></p>
+    
+<!--表格制作-->
+    <table border="1">
+        <tr>
+            <th>プラン名</th>
+            <th>料金</th>
+        </tr>
+        <tr>
+            <td>わくわくプラン</td>
+            <td>月額2,900円</td>
+        </tr>
+        <tr>
+            <td>にこにこプラン</td>
+            <td>月額1,900円</td>
+        </tr>
+    </table>
+<!--合并表格-->
+    <table border="1">
+        <tr>
+            <th colspan="2">プラン＋料金</th>
+        </tr>
+        <tr>
+            <td>わくわくプラン</td>
+            <td>月額2,900円</td>
+        </tr>
+        <tr>
+            <td>にこにこプラン</td>
+            <td>月額1,900円</td>
+        </tr>
+        
+    </table>
+　<!--フォーム 表单　PHP联动的格式-->
+    <form action="example.php" method="post" name="contact-form">
+        <h3>ここにフォームの部品が入ります。</h3>
+     名前：<input type="text" placeholder="名字　名前"></br>
+     性別：
+     <input type="radio" name="gender" value="男">男
+     <input type="radio" name="gender" value="女" checked>女
+     <input type="radio" name="gender" value="その他">その他
+    </br>
+     電話番号：<input type="tel"></br>
+     メールアドレス：<input type="email"></br>
+    <input type="submit" value="送信する"></br>
+    </form> 
+</body>
+</html>

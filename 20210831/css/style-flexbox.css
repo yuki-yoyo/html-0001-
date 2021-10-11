@@ -1,0 +1,39 @@
+
+.item{ /*项目*/
+/* <CSS flex弹性盒子>
+    background: #0bd;
+    color: #fff;
+    margin: 20px;
+    padding: 20px;
+    flex: none;/*没有弹性，固定尺寸，相反，使用auto可以尽量把容器的空间填满*/
+
+
+/* <CSS grid网格> */
+    background: pink;
+    color: #fff;
+    padding: 10px;
+}
+.container { /*容器*/
+/* <CSS flex弹性盒子>
+    /* display: flex; 如想对以上的盒子形态进行修改，可以不用在html上面更改，可以追加flex 这个语法 */
+   /* flex-direction: column-reverse; 子元素排列方向 */
+   /* justify-content: flex-end; 水平对齐 */
+   /* align-items: baseline;垂直对齐*/
+   /* flex-wrap: wrap;
+   /* align-content: space-around; 多数项目执行时，垂直对齐 */
+   /* height: 300px; */
+
+   /* .container-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* <CSS grid网格> */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 列数的宽度（一个数字代表一列） fr 代表比例指*/
+    gap: 10px; /* 列数的间距度 */
+    grid-template-rows: 200px 200px; /* 行的高度 （一个数字代表一行）*/
+}
+
+
